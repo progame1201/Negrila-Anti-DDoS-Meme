@@ -29,11 +29,19 @@ echo some more...
 ping localhost -n 1 > nul
 echo ##########################################
 echo          Negrila Anti-DDoS system
-echo            powered by negrila.exe      
-echo                    1.6.0
+echo            powered by Negrila Team   
+echo                    1.6.1
 echo ##########################################
 :a
 set /p run=
+
+if "%run%"=="cdto" (
+set /p cd=cdto:
+cd %cd%
+echo you are here %cd%
+start %cd%
+)
+
 
 if "%run%"=="help" (
 echo start - start the Anti-ddos. you must be logged in! You need a set IP!
@@ -44,8 +52,8 @@ echo restart - restart your system
 echo stop - exit.
 echo sucreate - create a user
 echo su [user] [pasword] - Login
-echo testing - the test:
 echo setip - Set IP to the start comand
+echo cdto - here used standart cd in Windows
 )
 
 if "%run%"=="setip" (
@@ -55,32 +63,21 @@ set i=true
 )
 
 if "%run%"=="sys" (color 4
-echo 0000000x00000000000 error echo sistem 32:0000000x000120
-echo Technical Information:
-echo *** STOP: 0x1000007e 
-echo (0xffffffffc0000005, 
-echo 0xfffff80002e55151, 
-echo 0xfffff880009a99d8,
-echo 0xfffff880009a9230
-echo *** /home/sys/terminal/comands/systeminfo - Address 
-echo 0xfffff80002e55151 base at echo 0xfffff80002e0d000 DateStamp
-echo 0x4ce7951a
-ping localhost -n 2 > nul
-exit 
+echo sus
 )
 if "%run%"=="clear" (
 cls
 echo ##########################################
 echo          Negrila Anti-DDoS system
-echo            powered by negrila.exe   
-echo                    1.6.0
+echo            powered by Negrila Team   
+echo                    1.6.1
 echo ##########################################)
 
 if "%run%"=="negrila anti-ddos info" (
 echo ##########################################
 echo          Negrila Anti-DDoS system
 echo             powered by negrila.exe
-echo               version: 1.6.0
+echo               version: 1.6.1
 echo               SuSbuntu 12.1
 echo           Created by progame1201
 echo             Using Linux - true
