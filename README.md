@@ -1,6 +1,6 @@
 # Negrila-Anti-DDoS
 Negrila Anti-DDoS
-Negrila Anti-DDoS system
+system
 Created in .Bat
 It doesn't work like you think
 
