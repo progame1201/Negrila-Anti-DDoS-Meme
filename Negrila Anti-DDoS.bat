@@ -2,36 +2,80 @@
 
 :t
 ping localhost -n 3 > nul
-echo running
+echo #  # ### #   #   ### #
+echo #  # #   #   #   # # #
+echo #### ### #   #   # # #
+echo #  # #   #   #   # # 
+echo #  # ### ### ### ### # 
 ping localhost -n 2 > nul
 cls
-echo Waiting.
+echo ### ###   #   ###  ### # ##   # ####
+echo #    #   # #  #  #  #    # #  # # 
+echo ###  #   ###  ###   #  # #  # # # ##
+echo   #  #  #   # # #   #  # #   ## #  # 
+echo ###  #  #   # #  #  #  # #    # #### # 
 ping localhost -n 2 > nul
 cls
-echo Waiting..
+echo ### ###   #   ###  ### # ##   # ####
+echo #    #   # #  #  #  #    # #  # # 
+echo ###  #   ###  ###   #  # #  # # # ##
+echo   #  #  #   # # #   #  # #   ## #  # 
+echo ###  #  #   # #  #  #  # #    # #### # # 
 ping localhost -n 2 > nul
 cls
-echo Waiting...
+echo ### ###   #   ###  ### # ##   # ####
+echo #    #   # #  #  #  #    # #  # # 
+echo ###  #   ###  ###   #  # #  # # # ##
+echo   #  #  #   # # #   #  # #   ## #  # 
+echo ###  #  #   # #  #  #  # #    # #### # # #
 ping localhost -n 2 > nul
 cls
-echo Waiting.
+echo ### ###   #   ###  ### # ##   # ####
+echo #    #   # #  #  #  #    # #  # # 
+echo ###  #   ###  ###   #  # #  # # # ##
+echo   #  #  #   # # #   #  # #   ## #  # 
+echo ###  #  #   # #  #  #  # #    # #### #
 ping localhost -n 2 > nul
 cls
-echo Waiting..
+echo ### ###   #   ###  ### # ##   # ####
+echo #    #   # #  #  #  #    # #  # # 
+echo ###  #   ###  ###   #  # #  # # # ##
+echo   #  #  #   # # #   #  # #   ## #  # 
+echo ###  #  #   # #  #  #  # #    # #### # #
 ping localhost -n 2 > nul
 cls
-echo Waiting...
+echo ### ###   #   ###  ### # ##   # ####
+echo #    #   # #  #  #  #    # #  # # 
+echo ###  #   ###  ###   #  # #  # # # ##
+echo   #  #  #   # # #   #  # #   ## #  # 
+echo ###  #  #   # #  #  #  # #    # #### # # #
 ping localhost -n 2 > nul
 cls
-echo successfully 
+echo ### # #  ### ### ### ### ### ### # # #   #  #   # #
+echo #   # #  #   #   #   #   #   #   # # #   #  #   # #
+echo ### # #  #   #   ### ### ### ### # # #   #   ###  #
+echo   # # #  #   #   #     #   # #   # # #   #    #   
+echo ### ###  ### ### ### ### ### #   ### ### ###  #   #
 ping localhost -n 2 > nul
-echo some more...
-ping localhost -n 1 > nul
-echo ##########################################
-echo          Negrila Anti-DDoS system
-echo            powered by Negrila Team   
-echo                    1.6.2
-echo ##########################################
+cls
+echo ### ### ##   ## ###  ##   ## ### ###  ###
+echo #   # # # # # # #    # # # # # # #  # #
+echo ### # # #  #  # ###  #  #  # # # ###  ###
+echo   # # # #     # #    #     # # # # #  #
+echo ### ### #     # ###  #     # ### #  # ### # # #
+ping localhost -n 2 > nul
+cls
+echo ##   #   #   ###  ###   ###   ###
+echo # #  #  # #  #  #   #   #       #
+echo #  # #  ###  #  #   #   ###   ###
+echo #   ## #   # #  #   #   # #     # 
+echo #    # #   # ###    # # ### # ### 
+echo --------------------------------------------------
+echo ###############################################
+echo #(Negrila anti-ddos system 1.6.3, progame1201)#                                   
+echo ###############################################
+echo --------------------------------------------------
+echo type "help" to see all commands
 set sta=false
 :a
 set /p run=
@@ -43,7 +87,10 @@ echo you are here %cd%
 start %cd%
 )
 
-
+if "%run%"=="hidenhelp" (
+echo how you find it?
+echo log - log of all vars
+)
 if "%run%"=="help" (
 echo start - start the Anti-ddos. you must be logged in! You need a set IP!
 echo sys - system
@@ -72,14 +119,14 @@ cls
 echo ##########################################
 echo          Negrila Anti-DDoS system
 echo            powered by Negrila Team   
-echo                    1.6.2
+echo                    1.6.3
 echo ##########################################)
 
 if "%run%"=="negrila anti-ddos info" (
 echo ##########################################
 echo          Negrila Anti-DDoS system
 echo             powered by negrila.exe
-echo               version: 1.6.2
+echo               version: 1.6.3
 echo               SuSbuntu 22.2
 echo           Created by progame1201
 echo             Using Linux - true
@@ -142,5 +189,7 @@ echo ##########################################
 set sta=false
 )
 )
-
+if "%run%"=="log" (
+echo sta - %sta% i - %i% log - %log% cd - %cd% run - %run% IP - %IP%
+)
 goto a
