@@ -1,6 +1,8 @@
 @echo off
 title Negrila Anti-DDoS
 set title=Negrila Anti-DDoS
+set acccr=0
+set log=false
 :t
 ping localhost -n 3 > nul
 echo #  # ### #   #   ### #
@@ -66,15 +68,14 @@ echo   # # # #     # #   #     # # # # #  #
 echo ### ### #     # ### #     # ### #  # ### # # #
 ping localhost -n 2 > nul
 cls
-echo ##   #   #   ###  ###   ###  # # 
-echo # #  #  # #  #  #   #   #    # # 
-echo #  # #  ###  #  #   #   ###  ### 
-echo #   ## #   # #  #   #   # #    #
-echo #    # #   # ###    # # ### #  #-----------------------------------------------------------------------------------
+echo ##   #   #   ###  ###   ###   ### 
+echo # #  #  # #  #  #   #   #     # 
+echo #  # #  ###  #  #   #   ###   ### 
+echo #   ## #   # #  #   #   # #     #
+echo #    # #   # ###    # # ### # ###-----------------------------------------------------------------------------------
 echo ###############################################
-echo #(Negrila Anti-DDoS system 1.6.4, progame1201)#                                   
+echo #(Negrila Anti-DDoS system 1.6.5, progame1201)#                                   
 echo ###############################################
-echo --------------------------------------------------
 echo type "help" to see all commands
 set sta=false
 :a
@@ -82,6 +83,11 @@ title %title%
 set /p run=
 
 if "%run%"=="cdto" (
+echo ### ###
+echo #   #  #
+echo #   #  #
+echo #   #  #
+echo ### ###
 set /p cd=cdto:
 cd %cd%
 echo you are here %cd%
@@ -117,6 +123,11 @@ set run=1
 )
 
 if "%run%"=="setip" (
+echo # ###
+echo   #  #
+echo # ###
+echo # #
+echo # #
 set /p IP=IP:
 echo IP Seted
 set i=true
@@ -129,25 +140,25 @@ set run=1
 )
 if "%run%"=="clear" (
 cls
-echo ##   #   #   ###  ###   ###  # # 
-echo # #  #  # #  #  #   #   #    # # 
-echo #  # #  ###  #  #   #   ###  ### 
-echo #   ## #   # #  #   #   # #    #
-echo #    # #   # ###    # # ### #  #-----------------------------------------------------------------------------------
+echo ##   #   #   ###  ###   ###   ### 
+echo # #  #  # #  #  #   #   #     # 
+echo #  # #  ###  #  #   #   ###   ### 
+echo #   ## #   # #  #   #   # #     #
+echo #    # #   # ###    # # ### # ###-----------------------------------------------------------------------------------
 echo type "help" to see all commands
 set run=1
 )
 
 if "%run%"=="negrila anti-ddos info" (
-echo ##   #   #   ###  ###   ###  # #
-echo # #  #  # #  #  #   #   #    # #
-echo #  # #  ###  #  #   #   ###  ###
-echo #   ## #   # #  #   #   # #    #
-echo #    # #   # ###    # # ### #  #
+echo ##   #   #   ###  ###   ###   ### 
+echo # #  #  # #  #  #   #   #     # 
+echo #  # #  ###  #  #   #   ###   ### 
+echo #   ## #   # #  #   #   # #     #
+echo #    # #   # ###    # # ### # ###
 echo ##########################################
 echo          Negrila Anti-DDoS system
 echo             powered by negrila.exe
-echo               version: 1.6.4
+echo               version: 1.6.5
 ver
 echo           Created by progame1201
 echo ##########################################
@@ -162,6 +173,11 @@ exit
 )
 
 if "%run%"=="exit" (
+echo ### #   # # ###
+echo #    # #     #
+echo ###   #   #  #
+echo #    # #  #  #
+echo ### #   # #  #
 echo stop in 3
 ping localhost -n 2 > nul
 echo stop in 2
@@ -175,27 +191,62 @@ exit
 )
 
 if "%run%"=="sucreate" (
+if "%acccr%"=="0" (
+echo ### # #
+echo #   # #
+echo ### # #
+echo   # # #
+echo ### ###
+ping localhost -n 1 > nul
 set /p name=name:
 set /p pasw=pasword:
 echo successfully account create!
+set acccr=1
 set run=1
 )
+)
 if "%run%"=="su %name% %pasw%" (
+if "%log%"=="false" (
+echo ### # #
+echo #   # #
+echo ### # #
+echo   # # #
+echo ### ###
+ping localhost -n 1 > nul
 echo You logined!
 set log=true
 set run=1
+)
 )
 
 if "%run%"=="start" (
 if "%log%"=="true" (
 if "%i%"=="true" (
 if "%sta%"=="false" (
+echo ##   #   #   ###
+echo # #  #  # #  #  #
+echo #  # #  ###  #  #
+echo #   ## #   # #  #
+echo #    # #   # ### Anti-DDoS system starting
+ping localhost -n 1 > nul
 echo Opening Negrila Anti-DDoS
-ping localhost -n 2 > nul
+ping localhost -n 3 > nul
 echo Opened Negrila Anti-DDoS
-ping localhost -n 1 > nul
+ping localhost -n 2 > nul
 echo successfully
-ping localhost -n 1 > nul
+ping localhost -n 3 > nul
+cls
+echo ##   #   #   ###  ###   ###   ### 
+echo # #  #  # #  #  #   #   #     # 
+echo #  # #  ###  #  #   #   ###   ### 
+echo #   ## #   # #  #   #   # #     #
+echo #    # #   # ###    # # ### # ###-----------------------------------------------------------------------------------
+echo type "help" to see all commands
+echo ##   #   #   ###
+echo # #  #  # #  #  #
+echo #  # #  ###  #  #
+echo #   ## #   # #  #
+echo #    # #   # ### Anti-DDoS system started
 echo ##########################################
 echo          Negrila Anti-DDoS system
 echo                 launched
@@ -210,18 +261,41 @@ set run=1
 
 if "%run%"=="stop" (
 if "%sta%"=="true" (
-echo ##########################################
-echo          Negrila Anti-DDoS system
-echo                 stoped
-echo ##########################################
+echo stoping
+ping localhost -n 3 > nul
+echo stoping 
+ping localhost -n 2 > nul
+cls
+echo ##   #   #   ###  ###   ###   ### 
+echo # #  #  # #  #  #   #   #     # 
+echo #  # #  ###  #  #   #   ###   ### 
+echo #   ## #   # #  #   #   # #     #
+echo #    # #   # ###    # # ### # ###-----------------------------------------------------------------------------------
+echo type "help" to see all command
+ping localhost -n 1 > nul
+echo ##   #   #   ###
+echo # #  #  # #  #  #
+echo #  # #  ###  #  #
+echo #   ## #   # #  #
+echo #    # #   # ### Anti-DDoS system stoped
 set sta=false
 set run=1
 )
 )
 if "%run%"=="log" (
+echo #     ###  ###
+echo  #     # #  #  
+echo   #     # #  #  ##
+echo    #     # #  #  #
+echo     ###   ###  ###
 echo sta - %sta% i - %i% log - %log% cd - %cd% run - %run% IP - %IP% title - %title%
 )
 if "%run%"=="title" (
+echo ### # ### #   ###
+echo  #     #  #   #
+echo  #  #  #  #   ###
+echo  #  #  #  #   #
+echo  #  #  #  ### ###
 set /p title=title name:
 ping localhost -n 2 > nul
 title %title%
