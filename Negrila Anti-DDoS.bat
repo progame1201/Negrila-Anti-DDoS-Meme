@@ -4,54 +4,90 @@ set title=Negrila Anti-DDoS
 set acccr=0
 set log=false
 :t
-ping localhost -n 3 > nul
+ping localhost -n 2 > nul
+cls
+echo \  \ \\\ \   \   \\\ \
+echo \  \ \   \   \   \ \ \
+echo \\\\ \\\ \   \   \ \ \
+echo \  \ \   \   \   \ \ 
+echo \  \ \\\ \\\ \\\ \\\ \
+ping localhost -n 2 > nul
+cls
+echo \  \ \\\ \   \   \\\ \
+echo \  \ \   \   \   \ \ \
+echo \\\\ \\\ \   \   \ \ \
+echo \  \ \   \   \   \ \ 
+echo #  # ### ### ### ### #
+ping localhost -n 2 > nul
+cls
+echo \  \ \\\ \   \   \\\ \
+echo \  \ \   \   \   \ \ \
+echo \\\\ \\\ \   \   \ \ \
+echo #  # #   #   #   # # 
+echo #  # ### ### ### ### #
+ping localhost -n 1 > nul
+cls
+echo \  \ \\\ \   \   \\\ \
+echo \  \ \   \   \   \ \ \
+echo #### ### #   #   # # #
+echo #  # #   #   #   # # 
+echo #  # ### ### ### ### #
+ping localhost -n 2 > nul
+cls
+echo \  \ \\\ \   \   \\\ \
+echo #  # #   #   #   # # #
+echo #### ### #   #   # # #
+echo #  # #   #   #   # # 
+echo #  # ### ### ### ### #
+ping localhost -n 2 > nul
+cls
 echo #  # ### #   #   ### #
 echo #  # #   #   #   # # #
 echo #### ### #   #   # # #
 echo #  # #   #   #   # # 
-echo #  # ### ### ### ### # 
+echo #  # ### ### ### ### #
 ping localhost -n 2 > nul
+cls
+echo \\\ \\\   \   \\\  \\\ \ \\   \ \\\\
+echo \    \   \ \  \  \  \    \ \  \ \
+echo \\\  \   \\\  \\\   \  \ \  \ \ \ \\
+echo   \  \  \   \ \ \   \  \ \    \ \  \ 
+echo \\\  \  \   \ \  \  \  \ \    \ \\\\
+ping localhost -n 2 > nul
+cls
+echo \\\ \\\   \   \\\  \\\ \ \\   \ \\\\
+echo \    \   \ \  \  \  \    \ \  \ \
+echo \\\  \   \\\  \\\   \  \ \  \ \ \ \\
+echo   \  \  \   \ \ \   \  \ \    \ \  \ 
+echo ###  #  #   # #  #  #  # #    # ####
+ping localhost -n 3 > nul
+cls
+echo \\\ \\\   \   \\\  \\\ \ \\   \ \\\\
+echo \    \   \ \  \  \  \    \ \  \ \
+echo \\\  \   \\\  \\\   \  \ \  \ \ \ \\
+echo   #  #  #   # # #   #  # #   ## #  # 
+echo ###  #  #   # #  #  #  # #    # ####
+ping localhost -n 2 > nul
+cls
+echo \\\ \\\   \   \\\  \\\ \ \\   \ \\\\
+echo \    \   \ \  \  \  \    \ \  \ \
+echo ###  #   ###  ###   #  # #  # # # ##
+echo   #  #  #   # # #   #  # #   ## #  # 
+echo ###  #  #   # #  #  #  # #    # ####
+ping localhost -n 1 > nul
+cls
+echo \\\ \\\   \   \\\  \\\ \ \\   \ \\\\
+echo #    #   # #  #  #  #    # #  # # 
+echo ###  #   ###  ###   #  # #  # # # ##
+echo   #  #  #   # # #   #  # #   ## #  # 
+echo ###  #  #   # #  #  #  # #    # ####
+ping localhost -n 3 > nul
 cls
 echo ### ###   #   ###  ### # ##   # ####
 echo #    #   # #  #  #  #    # #  # # 
 echo ###  #   ###  ###   #  # #  # # # ##
 echo   #  #  #   # # #   #  # #   ## #  # 
-echo ###  #  #   # #  #  #  # #    # #### # 
-ping localhost -n 2 > nul
-cls
-echo ### ###   #   ###  ### # ##   # ####
-echo #    #   # #  #  #  #    # #  # # 
-echo ###  #   ###  ###   #  # #  # # # ##
-echo   #  #  #   # # #   #  # #   ## #  # 
-echo ###  #  #   # #  #  #  # #    # #### # # 
-ping localhost -n 2 > nul
-cls
-echo ### ###   #   ###  ### # ##   # ####
-echo #    #   # #  #  #  #    # #  # # 
-echo ###  #   ###  ###   #  # #  # # # ##
-echo   #  #  #   # # #   #  # #   ## #  # 
-echo ###  #  #   # #  #  #  # #    # #### # # #
-ping localhost -n 2 > nul
-cls
-echo ### ###   #   ###  ### # ##   # ####
-echo #    #   # #  #  #  #    # #  # # 
-echo ###  #   ###  ###   #  # #  # # # ##
-echo   #  #  #   # # #   #  # #   ## #  # 
-echo ###  #  #   # #  #  #  # #    # #### #
-ping localhost -n 2 > nul
-cls
-echo ### ###   #   ###  ### # ##   # ####
-echo #    #   # #  #  #  #    # #  # # 
-echo ###  #   ###  ###   #  # #  # # # ##
-echo   #  #  #   # # #   #  # #   ## #  # 
-echo ###  #  #   # #  #  #  # #    # #### # #
-ping localhost -n 2 > nul
-cls
-echo ### ###   #   ###  ### # ##   # ####
-echo #    #   # #  #  #  #    # #  # # 
-echo ###  #   ###  ###   #  # #  # # # ##
-echo   #  #  #   # # #   #  # #   ## #  # 
-echo ###  #  #   # #  #  #  # #    # #### # # #
+echo ###  #  #   # #  #  #  # #    # #### 
 ping localhost -n 2 > nul
 cls
 echo ### # # ### ### ### ### ### ### # # #   #  #   # #
@@ -68,13 +104,13 @@ echo   # # # #     # #   #     # # # # #  #
 echo ### ### #     # ### #     # ### #  # ### # # #
 ping localhost -n 2 > nul
 cls
-echo ##   #   #   ###  ###   ###   ### 
-echo # #  #  # #  #  #   #   #     # 
-echo #  # #  ###  #  #   #   ###   ### 
-echo #   ## #   # #  #   #   # #     #
+echo ##   #   #   ###  ###   ###   ###
+echo # #  #  # #  #  #   #   #     #
+echo #  # #  ###  #  #   #   ###   ###
+echo #   ## #   # #  #   #   # #   # #
 echo #    # #   # ###    # # ### # ###-----------------------------------------------------------------------------------
 echo ###############################################
-echo #(Negrila Anti-DDoS system 1.6.5, progame1201)#                                   
+echo #(Negrila Anti-DDoS system 1.6.6, progame1201)#                                   
 echo ###############################################
 echo type "help" to see all commands
 set sta=false
@@ -140,25 +176,25 @@ set run=1
 )
 if "%run%"=="clear" (
 cls
-echo ##   #   #   ###  ###   ###   ### 
-echo # #  #  # #  #  #   #   #     # 
-echo #  # #  ###  #  #   #   ###   ### 
-echo #   ## #   # #  #   #   # #     #
+echo ##   #   #   ###  ###   ###   ###
+echo # #  #  # #  #  #   #   #     #
+echo #  # #  ###  #  #   #   ###   ###
+echo #   ## #   # #  #   #   # #   # #
 echo #    # #   # ###    # # ### # ###-----------------------------------------------------------------------------------
 echo type "help" to see all commands
 set run=1
 )
 
 if "%run%"=="negrila anti-ddos info" (
-echo ##   #   #   ###  ###   ###   ### 
-echo # #  #  # #  #  #   #   #     # 
-echo #  # #  ###  #  #   #   ###   ### 
-echo #   ## #   # #  #   #   # #     #
+echo ##   #   #   ###  ###   ###   ###
+echo # #  #  # #  #  #   #   #     #
+echo #  # #  ###  #  #   #   ###   ###
+echo #   ## #   # #  #   #   # #   # #
 echo #    # #   # ###    # # ### # ###
 echo ##########################################
 echo          Negrila Anti-DDoS system
 echo             powered by negrila.exe
-echo               version: 1.6.5
+echo               version: 1.6.6
 ver
 echo           Created by progame1201
 echo ##########################################
@@ -236,10 +272,10 @@ ping localhost -n 2 > nul
 echo successfully
 ping localhost -n 3 > nul
 cls
-echo ##   #   #   ###  ###   ###   ### 
-echo # #  #  # #  #  #   #   #     # 
-echo #  # #  ###  #  #   #   ###   ### 
-echo #   ## #   # #  #   #   # #     #
+echo ##   #   #   ###  ###   ###   ###
+echo # #  #  # #  #  #   #   #     #
+echo #  # #  ###  #  #   #   ###   ###
+echo #   ## #   # #  #   #   # #   # #
 echo #    # #   # ###    # # ### # ###-----------------------------------------------------------------------------------
 echo type "help" to see all commands
 echo ##   #   #   ###
@@ -266,10 +302,10 @@ ping localhost -n 3 > nul
 echo stoping 
 ping localhost -n 2 > nul
 cls
-echo ##   #   #   ###  ###   ###   ### 
-echo # #  #  # #  #  #   #   #     # 
-echo #  # #  ###  #  #   #   ###   ### 
-echo #   ## #   # #  #   #   # #     #
+echo ##   #   #   ###  ###   ###   ###
+echo # #  #  # #  #  #   #   #     #
+echo #  # #  ###  #  #   #   ###   ###
+echo #   ## #   # #  #   #   # #   # #
 echo #    # #   # ###    # # ### # ###-----------------------------------------------------------------------------------
 echo type "help" to see all command
 ping localhost -n 1 > nul
@@ -285,7 +321,7 @@ set run=1
 if "%run%"=="log" (
 echo #     ###  ###
 echo  #     # #  #  
-echo   #     # #  #  ##
+echo   #     # #  # ##
 echo    #     # #  #  #
 echo     ###   ###  ###
 echo sta - %sta% i - %i% log - %log% cd - %cd% run - %run% IP - %IP% title - %title%
